@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering\small
+\caption{Generalization gap: in-distribution accuracy minus held-out
+accuracy, in percentage points. Recall gap shown separately because a
+missed AI essay is the failure that matters for assessment.}
+\label{tab:gap}
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Model} & \textbf{In-dist.} & \textbf{Held-out} & \textbf{Acc. gap} & \textbf{Recall gap} \\
+\midrule
+DeBERTa-v3 & 99.69 & 44.11 & 55.57 & 17.16 \\
+RoBERTa & 99.82 & 39.48 & 60.34 & 25.40 \\
+ELECTRA & 99.66 & 36.84 & 62.83 & 31.81 \\
+DistilBERT & 99.48 & 35.52 & 63.97 & 29.68 \\
+BERT & 99.53 & 34.65 & 64.88 & 47.36 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,39 @@
+\begin{table}[t]
+\centering\small
+\caption{Detector performance in distribution and on two held-out
+corpora. AI text is the positive class; all values are percentages.
+Single seed (42). Control baselines fitted per corpus.}
+\label{tab:results}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+\textbf{Corpus} & \textbf{Model} & \textbf{Acc.} & \textbf{Prec.} & \textbf{Rec.} & \textbf{ROC} & \textbf{FPR} & \textbf{FNR} \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Same assignment pool}} \\
+  & BERT & 99.53 & 99.82 & 99.24 & 99.97 & 0.18 & 0.76 \\
+  & RoBERTa & 99.82 & 99.73 & 99.91 & 99.99 & 0.27 & 0.09 \\
+  & DeBERTa-v3 & 99.69 & 99.55 & 99.82 & 99.99 & 0.45 & 0.18 \\
+  & DistilBERT & 99.48 & 99.42 & 99.55 & 99.98 & 0.58 & 0.45 \\
+  & ELECTRA & 99.66 & 99.60 & 99.73 & 99.99 & 0.40 & 0.27 \\
+  & \emph{TF-IDF control} & 98.62 & -- & 97.92 & 99.88 & -- & -- \\
+  & \emph{Length-only control} & 54.53 & -- & 56.53 & 60.51 & -- & -- \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{AI Text Pile}} \\
+  & BERT & 34.65 & 38.58 & 51.88 & 30.50 & 82.58 & 48.12 \\
+  & RoBERTa & 39.48 & 43.81 & 74.51 & 17.90 & 95.54 & 25.49 \\
+  & DeBERTa-v3 & 44.11 & 46.68 & 82.66 & 27.28 & 94.43 & 17.34 \\
+  & DistilBERT & 35.52 & 41.42 & 69.88 & 11.31 & 98.84 & 30.12 \\
+  & ELECTRA & 36.84 & 41.88 & 67.92 & 26.21 & 94.24 & 32.08 \\
+  & \emph{TF-IDF control} & 97.36 & -- & 96.59 & 99.68 & -- & -- \\
+  & \emph{Length-only control} & 80.31 & -- & 79.27 & 93.05 & -- & -- \\
+\midrule
+\multicolumn{8}{@{}l}{\emph{Abstract Para.}} \\
+  & BERT & 51.64 & 50.84 & 100.00 & 77.89 & 96.71 & 0.00 \\
+  & RoBERTa & 50.33 & 50.17 & 100.00 & 39.56 & 99.34 & 0.00 \\
+  & DeBERTa-v3 & 50.00 & 50.00 & 100.00 & 26.21 & 100.00 & 0.00 \\
+  & DistilBERT & 50.00 & 50.00 & 100.00 & 67.62 & 100.00 & 0.00 \\
+  & ELECTRA & 51.97 & 51.01 & 100.00 & 92.53 & 96.05 & 0.00 \\
+  & \emph{TF-IDF control} & 80.26 & -- & 73.68 & 88.37 & -- & -- \\
+  & \emph{Length-only control} & 55.26 & -- & 73.68 & 59.31 & -- & -- \\
+\bottomrule
+\end{tabular}
+\end{table}

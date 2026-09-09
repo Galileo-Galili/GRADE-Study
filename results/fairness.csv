@@ -1,0 +1,181 @@
+condition,model,group,value,n,false_positive_rate
+pooled,bert,ell_status,No,1368,0.0014619883040935672
+pooled,bert,ell_status,Yes,169,0.0
+pooled,bert,holistic_essay_score,1,96,0.0
+pooled,bert,holistic_essay_score,2,391,0.0
+pooled,bert,holistic_essay_score,3,587,0.0
+pooled,bert,holistic_essay_score,4,443,0.002257336343115124
+pooled,bert,holistic_essay_score,5,166,0.006024096385542169
+pooled,bert,holistic_essay_score,6,33,0.0
+pooled,bert,grade_level,8.0,444,0.0045045045045045045
+pooled,bert,grade_level,9.0,289,0.0
+pooled,bert,grade_level,10.0,804,0.0
+pooled,bert,economically_disadvantaged,Economically disadvantaged,538,0.0018587360594795538
+pooled,bert,economically_disadvantaged,Not economically disadvantaged,452,0.0022123893805309734
+pooled,bert,student_disability_status,Identified as having disability,200,0.0
+pooled,bert,student_disability_status,Not identified as having disability,790,0.002531645569620253
+pooled,roberta,ell_status,No,1368,0.0021929824561403508
+pooled,roberta,ell_status,Yes,169,0.0
+pooled,roberta,holistic_essay_score,1,96,0.0
+pooled,roberta,holistic_essay_score,2,391,0.0025575447570332483
+pooled,roberta,holistic_essay_score,3,587,0.0017035775127768314
+pooled,roberta,holistic_essay_score,4,443,0.0
+pooled,roberta,holistic_essay_score,5,166,0.006024096385542169
+pooled,roberta,holistic_essay_score,6,33,0.0
+pooled,roberta,grade_level,8.0,444,0.0022522522522522522
+pooled,roberta,grade_level,9.0,289,0.0034602076124567475
+pooled,roberta,grade_level,10.0,804,0.0012437810945273632
+pooled,roberta,economically_disadvantaged,Economically disadvantaged,538,0.0
+pooled,roberta,economically_disadvantaged,Not economically disadvantaged,452,0.004424778761061947
+pooled,roberta,student_disability_status,Identified as having disability,200,0.005
+pooled,roberta,student_disability_status,Not identified as having disability,790,0.0012658227848101266
+pooled,deberta-v3,ell_status,No,1368,0.005116959064327485
+pooled,deberta-v3,ell_status,Yes,169,0.0
+pooled,deberta-v3,holistic_essay_score,1,96,0.0
+pooled,deberta-v3,holistic_essay_score,2,391,0.0025575447570332483
+pooled,deberta-v3,holistic_essay_score,3,587,0.005110732538330494
+pooled,deberta-v3,holistic_essay_score,4,443,0.004514672686230248
+pooled,deberta-v3,holistic_essay_score,5,166,0.006024096385542169
+pooled,deberta-v3,holistic_essay_score,6,33,0.0
+pooled,deberta-v3,grade_level,8.0,444,0.006756756756756757
+pooled,deberta-v3,grade_level,9.0,289,0.0034602076124567475
+pooled,deberta-v3,grade_level,10.0,804,0.0037313432835820895
+pooled,deberta-v3,economically_disadvantaged,Economically disadvantaged,538,0.0018587360594795538
+pooled,deberta-v3,economically_disadvantaged,Not economically disadvantaged,452,0.00663716814159292
+pooled,deberta-v3,student_disability_status,Identified as having disability,200,0.0
+pooled,deberta-v3,student_disability_status,Not identified as having disability,790,0.005063291139240506
+pooled,distilbert,ell_status,No,1368,0.003654970760233918
+pooled,distilbert,ell_status,Yes,169,0.0
+pooled,distilbert,holistic_essay_score,1,96,0.0
+pooled,distilbert,holistic_essay_score,2,391,0.0025575447570332483
+pooled,distilbert,holistic_essay_score,3,587,0.0
+pooled,distilbert,holistic_essay_score,4,443,0.004514672686230248
+pooled,distilbert,holistic_essay_score,5,166,0.012048192771084338
+pooled,distilbert,holistic_essay_score,6,33,0.030303030303030304
+pooled,distilbert,grade_level,8.0,444,0.009009009009009009
+pooled,distilbert,grade_level,9.0,289,0.0
+pooled,distilbert,grade_level,10.0,804,0.0012437810945273632
+pooled,distilbert,economically_disadvantaged,Economically disadvantaged,538,0.0018587360594795538
+pooled,distilbert,economically_disadvantaged,Not economically disadvantaged,452,0.008849557522123894
+pooled,distilbert,student_disability_status,Identified as having disability,200,0.005
+pooled,distilbert,student_disability_status,Not identified as having disability,790,0.005063291139240506
+pooled,electra,ell_status,No,1368,0.0029239766081871343
+pooled,electra,ell_status,Yes,169,0.0
+pooled,electra,holistic_essay_score,1,96,0.0
+pooled,electra,holistic_essay_score,2,391,0.005115089514066497
+pooled,electra,holistic_essay_score,3,587,0.0017035775127768314
+pooled,electra,holistic_essay_score,4,443,0.0
+pooled,electra,holistic_essay_score,5,166,0.006024096385542169
+pooled,electra,holistic_essay_score,6,33,0.0
+pooled,electra,grade_level,8.0,444,0.0045045045045045045
+pooled,electra,grade_level,9.0,289,0.0
+pooled,electra,grade_level,10.0,804,0.0024875621890547263
+pooled,electra,economically_disadvantaged,Economically disadvantaged,538,0.0
+pooled,electra,economically_disadvantaged,Not economically disadvantaged,452,0.00663716814159292
+pooled,electra,student_disability_status,Identified as having disability,200,0.005
+pooled,electra,student_disability_status,Not identified as having disability,790,0.002531645569620253
+xprompt_p0to1,bert,ell_status,No,574,0.02264808362369338
+xprompt_p0to1,bert,holistic_essay_score,1,47,0.0
+xprompt_p0to1,bert,holistic_essay_score,2,147,0.013605442176870748
+xprompt_p0to1,bert,holistic_essay_score,3,190,0.010526315789473684
+xprompt_p0to1,bert,holistic_essay_score,4,141,0.028368794326241134
+xprompt_p0to1,bert,holistic_essay_score,5,50,0.06
+xprompt_p0to1,bert,grade_level,9.0,561,0.023172905525846704
+xprompt_p0to1,roberta,ell_status,No,574,0.008710801393728223
+xprompt_p0to1,roberta,holistic_essay_score,1,47,0.0
+xprompt_p0to1,roberta,holistic_essay_score,2,147,0.006802721088435374
+xprompt_p0to1,roberta,holistic_essay_score,3,190,0.010526315789473684
+xprompt_p0to1,roberta,holistic_essay_score,4,141,0.0
+xprompt_p0to1,roberta,holistic_essay_score,5,50,0.04
+xprompt_p0to1,roberta,grade_level,9.0,561,0.008912655971479501
+xprompt_p0to1,deberta-v3,ell_status,No,574,0.008710801393728223
+xprompt_p0to1,deberta-v3,holistic_essay_score,1,47,0.02127659574468085
+xprompt_p0to1,deberta-v3,holistic_essay_score,2,147,0.006802721088435374
+xprompt_p0to1,deberta-v3,holistic_essay_score,3,190,0.005263157894736842
+xprompt_p0to1,deberta-v3,holistic_essay_score,4,141,0.014184397163120567
+xprompt_p0to1,deberta-v3,holistic_essay_score,5,50,0.02
+xprompt_p0to1,deberta-v3,grade_level,9.0,561,0.0106951871657754
+xprompt_p0to1,distilbert,ell_status,No,574,0.020905923344947737
+xprompt_p0to1,distilbert,holistic_essay_score,1,47,0.06382978723404255
+xprompt_p0to1,distilbert,holistic_essay_score,2,147,0.02040816326530612
+xprompt_p0to1,distilbert,holistic_essay_score,3,190,0.010526315789473684
+xprompt_p0to1,distilbert,holistic_essay_score,4,141,0.014184397163120567
+xprompt_p0to1,distilbert,holistic_essay_score,5,50,0.02
+xprompt_p0to1,distilbert,grade_level,9.0,561,0.023172905525846704
+xprompt_p0to1,electra,ell_status,No,574,0.0156794425087108
+xprompt_p0to1,electra,holistic_essay_score,1,47,0.02127659574468085
+xprompt_p0to1,electra,holistic_essay_score,2,147,0.006802721088435374
+xprompt_p0to1,electra,holistic_essay_score,3,190,0.010526315789473684
+xprompt_p0to1,electra,holistic_essay_score,4,141,0.02127659574468085
+xprompt_p0to1,electra,holistic_essay_score,5,50,0.02
+xprompt_p0to1,electra,grade_level,9.0,561,0.017825311942959002
+xprompt_p1to0,bert,ell_status,No,4713,0.16613621896880967
+xprompt_p1to0,bert,ell_status,Yes,530,0.045283018867924525
+xprompt_p1to0,bert,holistic_essay_score,1,326,0.015337423312883436
+xprompt_p1to0,bert,holistic_essay_score,2,1107,0.057813911472448055
+xprompt_p1to0,bert,holistic_essay_score,3,2014,0.10873882820258193
+xprompt_p1to0,bert,holistic_essay_score,4,1859,0.2345346960731576
+xprompt_p1to0,bert,holistic_essay_score,5,746,0.40482573726541554
+xprompt_p1to0,bert,holistic_essay_score,6,131,0.5267175572519084
+xprompt_p1to0,bert,grade_level,8.0,1555,0.16463022508038586
+xprompt_p1to0,bert,grade_level,10.0,3685,0.14952510176390774
+xprompt_p1to0,bert,economically_disadvantaged,Economically disadvantaged,1683,0.0932857991681521
+xprompt_p1to0,bert,economically_disadvantaged,Not economically disadvantaged,1812,0.23399558498896247
+xprompt_p1to0,bert,student_disability_status,Identified as having disability,594,0.07744107744107744
+xprompt_p1to0,bert,student_disability_status,Not identified as having disability,2901,0.18441916580489487
+xprompt_p1to0,roberta,ell_status,No,4713,0.043072353065987695
+xprompt_p1to0,roberta,ell_status,Yes,530,0.007547169811320755
+xprompt_p1to0,roberta,holistic_essay_score,1,326,0.003067484662576687
+xprompt_p1to0,roberta,holistic_essay_score,2,1107,0.006323396567299007
+xprompt_p1to0,roberta,holistic_essay_score,3,2014,0.016881827209533268
+xprompt_p1to0,roberta,holistic_essay_score,4,1859,0.04895104895104895
+xprompt_p1to0,roberta,holistic_essay_score,5,746,0.1447721179624665
+xprompt_p1to0,roberta,holistic_essay_score,6,131,0.25190839694656486
+xprompt_p1to0,roberta,grade_level,8.0,1555,0.03536977491961415
+xprompt_p1to0,roberta,grade_level,10.0,3685,0.0412483039348711
+xprompt_p1to0,roberta,economically_disadvantaged,Economically disadvantaged,1683,0.0196078431372549
+xprompt_p1to0,roberta,economically_disadvantaged,Not economically disadvantaged,1812,0.07560706401766004
+xprompt_p1to0,roberta,student_disability_status,Identified as having disability,594,0.016835016835016835
+xprompt_p1to0,roberta,student_disability_status,Not identified as having disability,2901,0.055153395380903136
+xprompt_p1to0,deberta-v3,ell_status,No,4713,0.02737110120942075
+xprompt_p1to0,deberta-v3,ell_status,Yes,530,0.0037735849056603774
+xprompt_p1to0,deberta-v3,holistic_essay_score,1,326,0.003067484662576687
+xprompt_p1to0,deberta-v3,holistic_essay_score,2,1107,0.007226738934056007
+xprompt_p1to0,deberta-v3,holistic_essay_score,3,2014,0.015888778550148957
+xprompt_p1to0,deberta-v3,holistic_essay_score,4,1859,0.04034427111350188
+xprompt_p1to0,deberta-v3,holistic_essay_score,5,746,0.08847184986595175
+xprompt_p1to0,deberta-v3,holistic_essay_score,6,131,0.16030534351145037
+xprompt_p1to0,deberta-v3,grade_level,8.0,1555,0.036655948553054665
+xprompt_p1to0,deberta-v3,grade_level,10.0,3685,0.020081411126187245
+xprompt_p1to0,deberta-v3,economically_disadvantaged,Economically disadvantaged,1683,0.012477718360071301
+xprompt_p1to0,deberta-v3,economically_disadvantaged,Not economically disadvantaged,1812,0.046357615894039736
+xprompt_p1to0,deberta-v3,student_disability_status,Identified as having disability,594,0.011784511784511785
+xprompt_p1to0,deberta-v3,student_disability_status,Not identified as having disability,2901,0.03378145467080317
+xprompt_p1to0,distilbert,ell_status,No,4713,0.07511139401654997
+xprompt_p1to0,distilbert,ell_status,Yes,530,0.01509433962264151
+xprompt_p1to0,distilbert,holistic_essay_score,1,326,0.006134969325153374
+xprompt_p1to0,distilbert,holistic_essay_score,2,1107,0.018970189701897018
+xprompt_p1to0,distilbert,holistic_essay_score,3,2014,0.05908639523336644
+xprompt_p1to0,distilbert,holistic_essay_score,4,1859,0.11511565357719204
+xprompt_p1to0,distilbert,holistic_essay_score,5,746,0.225201072386059
+xprompt_p1to0,distilbert,holistic_essay_score,6,131,0.37404580152671757
+xprompt_p1to0,distilbert,grade_level,8.0,1555,0.05787781350482315
+xprompt_p1to0,distilbert,grade_level,10.0,3685,0.07381275440976934
+xprompt_p1to0,distilbert,economically_disadvantaged,Economically disadvantaged,1683,0.04040404040404041
+xprompt_p1to0,distilbert,economically_disadvantaged,Not economically disadvantaged,1812,0.11258278145695365
+xprompt_p1to0,distilbert,student_disability_status,Identified as having disability,594,0.02356902356902357
+xprompt_p1to0,distilbert,student_disability_status,Not identified as having disability,2901,0.0889348500517063
+xprompt_p1to0,electra,ell_status,No,4713,0.040950562274559725
+xprompt_p1to0,electra,ell_status,Yes,530,0.013207547169811321
+xprompt_p1to0,electra,holistic_essay_score,1,326,0.0
+xprompt_p1to0,electra,holistic_essay_score,2,1107,0.007226738934056007
+xprompt_p1to0,electra,holistic_essay_score,3,2014,0.023833167825223437
+xprompt_p1to0,electra,holistic_essay_score,4,1859,0.05970952124798279
+xprompt_p1to0,electra,holistic_essay_score,5,746,0.17560321715817695
+xprompt_p1to0,electra,holistic_essay_score,6,131,0.22900763358778625
+xprompt_p1to0,electra,grade_level,8.0,1555,0.03215434083601286
+xprompt_p1to0,electra,grade_level,10.0,3685,0.0407055630936228
+xprompt_p1to0,electra,economically_disadvantaged,Economically disadvantaged,1683,0.017825311942959002
+xprompt_p1to0,electra,economically_disadvantaged,Not economically disadvantaged,1812,0.0640176600441501
+xprompt_p1to0,electra,student_disability_status,Identified as having disability,594,0.010101010101010102
+xprompt_p1to0,electra,student_disability_status,Not identified as having disability,2901,0.048259220958290244

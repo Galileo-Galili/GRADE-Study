@@ -1,0 +1,19 @@
+group,value,n,false_positive_rate
+holistic grade,1,434,0.009216589861751152
+holistic grade,2,2314,0.01296456352636128
+holistic grade,3,3805,0.014717477003942181
+holistic grade,4,3846,0.033541341653666144
+holistic grade,5,2166,0.04293628808864266
+holistic grade,6,637,0.05180533751962323
+English an additional language,No,11483,0.028738134633806495
+English an additional language,Yes,1271,0.006294256490952006
+school year,6.0,523,0.06883365200764818
+school year,8.0,4771,0.036889540976734435
+school year,9.0,1309,0.009167303284950344
+school year,10.0,3396,0.01707891637220259
+school year,11.0,2387,0.02346041055718475
+school year,12.0,401,0.0
+economic disadvantage,Economically disadvantaged,4223,0.015155103007340753
+economic disadvantage,Not economically disadvantaged,5756,0.04412786657400973
+disability status,Identified as having disability,1330,0.015789473684210527
+disability status,Not identified as having disability,8667,0.03426791277258567

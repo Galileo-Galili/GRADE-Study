@@ -1,0 +1,67 @@
+#=======================================================================
+#  GRADE: Generalization Robustness Assessment for Detectors in Education
+#
+#  Rule of thumb (same as the LOGO repo): commit the CODE and the SMALL
+#  DERIVED RESULTS the paper cites. Never commit corpora or model weights
+#  — both are regenerable, and two of the corpora exceed GitHub's 100 MB
+#  hard limit.
+#=======================================================================
+
+#---------------------------------------------------------------- models
+# Fine-tuned checkpoints: ~500 MB each, 15 runs. Regenerate by running
+# section 9 of notebooks/GRADE_full_study.ipynb.
+models/
+*.safetensors
+*.bin
+*.ckpt
+*.pt
+*.pth
+
+#------------------------------------------------------------------ data
+# Source corpora. Download instructions are in datasets/README.md:
+#   llm_detect/  -> Kaggle "LLM - Detect AI Generated Text"
+#   hf_pile/     -> huggingface.co/datasets/artem9k/ai-text-detection-pile
+#   abstract_paraphrase/ -> github.com/kartelj/llm_plagiarism_public
+# hf_pile_sample_20k.csv is 118 MB — over GitHub's limit.
+datasets/**/*.csv
+datasets/**/*.txt
+!datasets/README.md
+
+# Everything in data/ is built by section 1-8 of the notebook.
+data/
+
+# The rejected corpus retained as evidence for the audit claim (7 MB).
+audit_evidence/
+
+#--------------------------------------------------------------- results
+# Per-run metrics and per-sample predictions ARE committed — they are what
+# the paper cites and they are small. Figures are committed too.
+# (nothing excluded here on purpose)
+
+#----------------------------------------------------------------- latex
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.synctex.gz
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.bbl
+paper/*.blg
+
+#------------------------------------------------------------------ misc
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Local tool settings
+.claude/
+
+# Prior work, kept locally as a code reference; it is its own repository.
+Previous Logo Work/
+
+# Third-party reference PDFs kept locally; not ours to redistribute.
+*.pdf
+!paper/iciser2026_short.pdf
