@@ -64,4 +64,9 @@ Previous Logo Work/
 
 # Third-party reference PDFs kept locally; not ours to redistribute.
 *.pdf
-!paper/iciser2026_short.pdf
+
+# The paper itself lives elsewhere; this repo is code and results.
+paper/
+
+# Superseded first-pass notebook, kept locally only.
+notebooks/GRADE_full_study.ipynb

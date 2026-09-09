@@ -49,10 +49,12 @@ held-out assignment under the same conditions.
 ## Repository layout
 
 ```
-notebooks/    the full study, figure generation
-scripts/      corpus construction, audits, figure scripts
+notebooks/    GRADE_full_study_v2      the DeBERTa sweep, all 15 folds
+              GRADE_roberta_full       the RoBERTa sweep, all 15 folds
+              GRADE_roberta_extremes   RoBERTa on the two extreme folds
+              GRADE_figures            every chart, both encoders
+scripts/      corpus construction, split audits, figure scripts
 results/      per-run metrics, per-sample predictions, figures
-paper/        LaTeX sources
 datasets/     download instructions only (see datasets/README.md)
 ```
 
@@ -74,5 +76,3 @@ encoders and all 15 folds: AdamW, learning rate 2e-5, batch size 8,
 
 Research in progress. Results in `results/` are seed 42 only; a multi-seed
 sweep is not yet run.
-
-<!-- repo: https://github.com/Galileo-Galili/GRADE-Study -->
