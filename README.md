@@ -74,3 +74,5 @@ encoders and all 15 folds: AdamW, learning rate 2e-5, batch size 8,
 
 Research in progress. Results in `results/` are seed 42 only; a multi-seed
 sweep is not yet run.
+
+<!-- repo: https://github.com/Galileo-Galili/GRADE-Study -->
