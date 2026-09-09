@@ -30,6 +30,29 @@ false positives that remain fall disproportionately on the most highly
 graded writers, and a within-grade-band test ties this to formal writing
 style rather than to grade itself.
 
+**RQ1 — the detector against a control that cannot recognise authorship.**
+Every bar left of zero is an assignment where word frequency alone matched
+or beat the fine-tuned detector.
+
+![Accuracy minus the word-frequency control, per held-out assignment, both encoders](results/figures/both/rq1_margin_vs_control.png)
+
+**Where the accuracy goes.** Ranking survives the shift and the decision
+threshold does not: ROC-AUC holds above 99.68% on every fold while accuracy
+falls as low as 93.47% (DeBERTa) and 90.06% (RoBERTa).
+
+![ROC-AUC against accuracy on each held-out assignment](results/figures/both/roc_auc_vs_accuracy.png)
+
+**RQ2 — who absorbs the error.** False accusations on authentic work, by
+holistic grade and by English-language status, for both encoders.
+
+![False-positive rate by holistic grade and by English-language status](results/figures/both/rq2_false_accusations.png)
+
+**Why.** Within every grade band, the authentic work the detector flagged
+carries a denser use of formal discourse markers than the work it passed,
+so formality predicts a flag beyond what grade accounts for.
+
+![Formal discourse-marker density, flagged against passed, within each grade band](results/figures/both/rq2_marker_density.png)
+
 ## Protocol
 
 One assignment is held out at a time. The detector is fine-tuned on the
